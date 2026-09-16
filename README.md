@@ -17,7 +17,7 @@ Ciclo X — 2026
 ## Stack tecnológico
 
 - **Backend:** Spring Boot 3.3 (Java 17), arquitectura en capas (controlador / servicio / repositorio / modelo)
-- **Base de datos:** PostgreSQL
+- **Base de datos:** MySQL
 - **Visión artificial:** API Pl@ntNet + filtro de calidad de imagen con OpenCV
 - **Clima:** API Open-Meteo
 - **Agente inteligente:** LLM (GPT-4o mini)
