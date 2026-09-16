@@ -11,7 +11,7 @@ Ciclo X — 2026
 - Ávalos Yataco Melani Yanet
 - Felipa Márquez Harol
 - Guanilo Ramos Ronaldo Paul
-- Castilla Valencia Ayrton
+- Valencia Carpio Ayrton
 
 
 ## Stack tecnológico
