@@ -52,6 +52,20 @@ Cuando la confianza del modelo de visión artificial es **menor al 70%**, el sis
 **no emite un diagnóstico automático** y deriva la consulta a un especialista humano
 (`ServicioEscalamiento.UMBRAL_CONFIANZA`).
 
+## Documentación de diseño (carpeta `docs/`)
+
+- `diagrama_arquitectura_capas.png` — diagrama de la arquitectura en capas
+- `diagrama_base_datos.png` — diagrama entidad-relación del modelo de datos (8 entidades)
+- `esquema_base_datos.sql` — script SQL de creación de tablas (PostgreSQL)
+
+## Entidades del modelo de datos
+
+**Núcleo del diagnóstico:** Usuario, Consulta, Diagnostico, PlagaEnfermedad, Tratamiento, RegistroClima
+
+**Agregadas para cubrir el flujo completo:**
+- `CodigoVerificacion` — códigos de un solo uso para la verificación en dos pasos (2FA)
+- `RespuestaEspecialista` — diagnóstico y recomendación que registra el especialista cuando revisa un caso escalado
+
 ## Cómo ejecutar (una vez implementada la lógica)
 
 ```bash
